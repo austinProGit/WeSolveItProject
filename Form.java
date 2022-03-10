@@ -177,7 +177,7 @@ public class Form {
     // Present the general form to collect generic information about the new patient
     processGeneralForm(newDoctor, scanner);
 
-    // Collect the dosses the doctor will be able to administer for each day of the week (day indices 1 through 7)
+    // Collect the doses the doctor will be able to administer for each day of the week (day indices 1 through 7)
 
     System.out.println("How many vaccines will you be able to administer per day?\n");
 

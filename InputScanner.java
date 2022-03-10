@@ -4,7 +4,7 @@ import java.io.InputStream;
 import java.time.LocalDate;
 import java.time.DateTimeException;
 
-// Note that InputScanner cannot (though, should be) a subclass of the final class Scanner.
+// Note that InputScanner cannot (though, should) be a subclass of the final class Scanner.
 
 /**
  * This class prompts the user for input and processes the user's responses. Moreover, the InputScanner class ensures that the user enters the correct data type/format and continually prompts the user until correct data is entered. 

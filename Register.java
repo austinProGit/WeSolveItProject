@@ -72,7 +72,7 @@ public class Register implements Serializable {
   }
 
   /**
-   * Static method for quickely generating low-detail Register instances for testing.
+   * Static method for quickly generating low-detail Register instances for testing.
    * Note that ageWeighting, dosesPerDay, and the second level of doctorParameters must have a certain length. Meanwhile, weighting and the second level of patientParameters must be as long as the questionnaire. patientAges and patientParameters must have the same number of elements (to be the number of patients), and the length of doctorParameters will determine the number of doctors.
    * This method will generate new Patient and Doctor instances for the register, with each of these instances named p### for patients and d### for doctors (where ### is the unique ascending number associated with that instance).
    * @param ageWeighting the weightings for the different age ranges (must be a 9-element array).
@@ -183,7 +183,7 @@ public class Register implements Serializable {
     // Get the age of the new patient in whole decades (for example, a nine year old is 0 decades old)
     int patientAgeInDecades = (int) newPatient.getBirthdate().until(LocalDate.now(), ChronoUnit.DECADES);
 
-    // Create a variable to tracking the running weight (set initially to the weighting points awarding based on age)
+    // Create a variable to track the running weight (set initially to the weighting points awarded based on age)
     int calculatedWeight = ageRangeWeights[Math.max(0, Math.min(patientAgeInDecades, 8))];
 
     // Add weighting points for the questionnaire responses
