@@ -1,0 +1,6 @@
+NO
+Have you ever had a positive test for COVID 19?
+NO
+Have you ever had an allergic reaction to any vaccine?
+NO
+Do you currently have one or more symptoms consistent with COVID 19 (including a dry cough, difficulty breathing, a fever, body aches, loss of taste or smell)?

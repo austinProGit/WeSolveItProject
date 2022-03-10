@@ -1,0 +1,10 @@
+High risk employment
+Do you work in the healthcare industry or in eldery care?
+Asthma
+Have you been diagnosed with moderate to severe asthma?
+COPD
+Have you been diagnosed with chronic obstructive pulmonary disease, including emphysema and chronic bronchitis?
+Scarred Lung Tissue
+Do you have damaged or scarred lung tissue such as interstitial lung disease, (including idiopathic pulmonary fibrosis)?
+Smoking
+Do you smoke cigarettes?
